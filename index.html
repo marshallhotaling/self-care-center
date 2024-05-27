@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
-  </head>
-  <body>
-  
-    <script type="text/javascript" src="main.js"></script>
-  </body>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="mainWrapper">
+
+  <div class=topItem>
+    <label class="titleLabel">✨ Self Care Center ✨</label>
+  </div>
+
+  <div class="middleItem">
+
+
+    <label class="middleLabel">Which type if message?</label>
+
+    <div class="middlefield">
+      <div class="buttons">
+        <input type="radio" class="radioButtonA"><label class="radioButtonLabelA" >affirmation</label></input>
+        <input type="radio" class="radioButtonB"><label class="radioButtonLabelB" >mantra</label></input>
+      </div>
+      <button class="messageButton">Receive message</button>
+      <button class="showSavedButton hidden">view Favorite</button>
+    </div>
+  </div>
+
+  <div class="bottomItem">
+    <img class="image" src="assets/meditate.svg">
+  </div>
+
+
+  <div class="saveThis">
+    <button class="iDL hidden">I don’t like this message</button>
+    <button class="saveThisButton hidden">Favorite</button>
+  </div>
+</div>
+
+<div class="secondItem hidden">
+<div class="backToHomePage">
+  <button class="bTHome"> Back to home </button>
+</div>
+  <div class="allSaved">
+
+  </div>
+</div>
+
+
+
+<script type="text/javascript" src="main.js"></script>
+</body>
 </html>
